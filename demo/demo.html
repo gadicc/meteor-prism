@@ -13,6 +13,8 @@
   	}
   {{/prism}}
 
+  {{#prism lang="bash"}}hello{{/prism}}
+
   {{#prism lang="blaze" class="line-numbers" data-line="1-2, 4, 5"}}
   	<template name="hello">
   	  {{dstache}}! comment1 }}
@@ -21,6 +23,20 @@
   			<p>Hello, {{dstache}}firstname}}</p>
   		{{dstache}}/Example}}
   	</template>
+  {{/prism}}
+
+  {{#prism lang="blaze" class="line-numbers" data-line="1"}}
+    {{dstache}}#Scrollview size="[undefined,undefined]"}}
+
+      {{dstache}}#Surface size="[200,undefined]"}}
+        <h1>Scrollview Example</h1>
+      {{dstache}}/Surface}}
+
+      {{dstache}}#famousEach items}}
+        {{dstache}}>Surface template="item" size=reactiveSize}}
+      {{dstache}}/famousEach}}
+
+    {{dstache}}/Scrollview}}
   {{/prism}}
 
   <pre><code language="javascript">
