@@ -4,9 +4,10 @@ Smart package for [Prism](http://prismjs.com/), a Syntax Highlighter.
 
 Features:
 
-* Optional bundling of additional languages (default: css,html,js,handlebars)
-* Optional bundling of additional plugins
-* Template helpers and integration with markdown packages
+* COMING SOON: Optional bundling of additional languages (default: css,markup,js,blaze,bash)
+* COMING SOON: Optional bundling of additional plugins (line-numbers,line-highlight)
+* COMING SOON: Optional bundling of additional themes (default: okaida)
+* Template helpers and COMING SOON: integration with markdown packages
 * Blaze/handlebars language definition (early, as yet unsubmitted back to prism)
 
 ## Usage
