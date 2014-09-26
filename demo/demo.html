@@ -1,0 +1,36 @@
+<head>
+  <title>demo</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+
+  {{#prism lang="javascript" class="line-numbers" data-line="1-2, 4, 5"}}
+  	function gadi(hi) {
+  		exit();
+  	}
+  {{/prism}}
+
+  {{#prism lang="blaze" class="line-numbers" data-line="1-2, 4, 5"}}
+  	<template name="hello">
+  	  {{dstache}}! comment1 }}
+  	  {{dstache}}!-- comment2 --}}
+  		{{dstache}}#Example this=that value="moo"}}
+  			<p>Hello, {{dstache}}firstname}}</p>
+  		{{dstache}}/Example}}
+  	</template>
+  {{/prism}}
+
+  <pre><code language="javascript">
+  	function gadi(hi) {
+  		exit();
+  	}
+  </code></pre>
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
