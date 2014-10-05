@@ -8,7 +8,7 @@ Features:
 * COMING SOON: Optional bundling of additional plugins (line-numbers,line-highlight)
 * COMING SOON: Optional bundling of additional themes (default: okaida)
 * Template helpers and COMING SOON: integration with markdown packages
-* Blaze/handlebars language definition (early, as yet unsubmitted back to prism)
+* spacebars (meteor) language definition (early, as yet unsubmitted back to prism)
 
 ## Usage
 
