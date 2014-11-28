@@ -1,9 +1,17 @@
+  var langAliases = {
+    coffee: 'coffeescript',
+    js: 'javascript'
+  };
+
   Blaze.Template.registerHelper("prism", new Template('prism', function () {
     var view = this;
     var data = Blaze.getData(view);
 
     if (!data.language && data.lang)
     	data.language = data.lang;
+
+    if (langAliases[data.language])
+        data.language = langAliases[data.language];
 
     var content = '';
     if (view.templateContentBlock) {

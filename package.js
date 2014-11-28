@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Prism Syntax Highlighter, integrated with Meteor",
-  version: "1.0.1",
+  version: "1.0.4",
   git: "https://github.com/gadicc/meteor-prism"
 });
 
@@ -24,6 +24,9 @@ Package.onUse(function(api) {
   api.addFiles('lib/prism/components/prism-javascript.js', 'client', { bare: true } );
   api.addFiles('lib/prism/components/prism-markup.js', 'client', { bare: true } );
 
+  api.addFiles('lib/prism/components/prism-coffeescript.js', 'client', { bare: true } );
+
+  api.addFiles('prism-jade.js', 'client', { bare: true } );
   api.addFiles('prism-spacebars.js', 'client', { bare: true } );
 
   /* Plugins */
